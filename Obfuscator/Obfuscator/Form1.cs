@@ -24,7 +24,7 @@ namespace Obfuscator
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            richTextBox2.Text = Obfuscate(richTextBox1.Text);
+            richTextBox2.Text = richTextBox1.Text.ToLower();
         }
 
         public string Obfuscate(string input)
