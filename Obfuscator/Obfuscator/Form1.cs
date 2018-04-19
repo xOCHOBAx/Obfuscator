@@ -24,7 +24,7 @@ namespace Obfuscator
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            richTextBox2.Text = "Hello, World!";
+            richTextBox2.Text = "Hello, Worldasd!";
         }
     }
 }
